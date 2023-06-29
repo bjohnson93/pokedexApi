@@ -23,7 +23,6 @@ export class WildPokemonController {
     console.log('the pokemon controller is loaded');
 
     this.getPokemon()
-
     AppState.on('wildPokemon', _drawWildPokemon)
   }
 
